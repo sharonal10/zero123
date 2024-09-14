@@ -74,7 +74,7 @@ bpy.data.objects["Area"].scale[0] = 100
 bpy.data.objects["Area"].scale[1] = 100
 bpy.data.objects["Area"].scale[2] = 100
 
-render.engine = args.engine
+render.engine = args.engine #test
 render.image_settings.file_format = "PNG"
 render.image_settings.color_mode = "RGBA"
 render.resolution_x = 512
